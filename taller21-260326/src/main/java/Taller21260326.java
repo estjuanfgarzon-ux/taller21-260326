@@ -31,9 +31,9 @@ public class Taller21260326 {
         int esperado = n * (n + 1)/2;
 
         
-        int faltante = sumaLista - esperado;
+        int faltante = esperado - sumaLista;
 
        
-        System.out.println("El numero faltante es: " + sumaLista);
+        System.out.println("El numero faltante es: " + faltante);
     }
 }
