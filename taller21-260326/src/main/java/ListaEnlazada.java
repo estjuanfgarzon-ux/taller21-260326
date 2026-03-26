@@ -18,7 +18,10 @@ class ListaEnlazada {
 
     public void ordenar() {
 
-        
+          if (cabeza == null || cabeza.siguiente == null) {
+            return;
+        }
+
         boolean cambio;
 
         do {
