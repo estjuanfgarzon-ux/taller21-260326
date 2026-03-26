@@ -28,7 +28,7 @@ public class Taller21260326 {
         int sumaLista = lista.suma();
 
         
-        int esperado = n * (n + 1);
+        int esperado = n * (n + 1)/2;
 
         
         int faltante = sumaLista - esperado;
