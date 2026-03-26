@@ -49,7 +49,7 @@ class ListaEnlazada {
         Nodo temp = cabeza;
 
        
-        while (temp.siguiente != null) {
+        while (temp != null) {
             suma += temp.dato;
             temp = temp.siguiente;
         }
