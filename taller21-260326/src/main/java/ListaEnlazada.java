@@ -30,7 +30,7 @@ class ListaEnlazada {
 
             
             while (actual.siguiente != null) {
-                if (actual.dato >= actual.siguiente.dato) {
+                if (actual.dato > actual.siguiente.dato) {
 
                     int temp = actual.dato;
                     actual.dato = actual.siguiente.dato;
