@@ -13,7 +13,7 @@ public class Taller21260326 {
         System.out.println("Ingrese " + (n - 1) + " numeros (falta uno):");
 
     
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n - 1; i++) {
             lista.agregar(sc.nextInt());
         }
 
